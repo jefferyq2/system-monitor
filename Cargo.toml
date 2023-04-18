@@ -1,0 +1,21 @@
+[package]
+name = "system-monitor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winit = "0.28.3"
+wgpu = "0.15.1"
+egui = "0.21.0"
+epi = "0.17"
+egui_winit_platform = "0.18.0"
+egui_wgpu_backend = "0.22.0"
+anyhow = "1.0.70"
+sysinfo = "0.28.4"
+egui_extras = "0.21.0"
+
+[dependencies.tokio]
+version = "1.27.0"
+features = ["rt-multi-thread", "macros"]
